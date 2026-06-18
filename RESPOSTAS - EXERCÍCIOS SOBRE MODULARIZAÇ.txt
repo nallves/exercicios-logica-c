@@ -1,0 +1,38 @@
+RESPOSTAS - EXERCÍCIOS SOBRE MODULARIZAÇÃO
+
+1) O que é Modularização?
+Resposta: É a técnica de programação que consiste em dividir um programa grande e complexo em partes menores e independentes (chamadas de funções ou módulos) para facilitar a resolução do problema.
+
+2) Cite quatro vantagens da Modularização.
+Resposta: 
+1. Reutilização de código. 
+2. Facilidade de manutenção e correção de erros. 
+3. Código mais organizado e legível. 
+4. Divisão de tarefas entre diferentes programadores.
+
+3) Explique o que é escopo de variável.
+Resposta: O escopo é a região do código onde uma variável é "visível" e pode ser acessada, lida e manipulada pelo programa.
+
+4) Quais são os dois escopos de variáveis da linguagem C?
+Resposta: Os escopos são local e global.
+
+5) O que significa uma variável possuir escopo global?
+Resposta: Significa que a variável é declarada fora de todas as funções do programa (geralmente no topo do arquivo). Dessa forma, ela pode ser acessada e modificada por qualquer função em qualquer parte do código.
+
+6) O que significa uma variável possuir escopo local?
+Resposta: Significa que a variável é declarada dentro de uma função específica (como o main ou qualquer outra criada pelo programador). Ela só existe e só pode ser acessada dentro dos limites das chaves { } daquela função.
+
+7) Explique porque colocamos a palavra-chave "int" antes de "main".
+Resposta: Isso indica que a função principal do programa retorna um valor inteiro para o sistema operacional. Normalmente usamos o "return 0;" no final para avisar ao sistema que o programa rodou e foi encerrado com sucesso, sem falhas.
+
+8) Explique porque colocamos a palavra-chave "void" logo após o "main".
+Resposta: A palavra "void" (vazio) dentro dos parênteses indica que a função principal não recebe nenhum argumento ou parâmetro externo do sistema operacional para iniciar o seu trabalho.
+
+9) Se você não colocar a palavra-chave "int" antes do "main", o que deverá fazer?
+Resposta: Em compiladores mais antigos, assume-se que a função retorna "int" por padrão. No entanto, em compiladores modernos, omitir o tipo de retorno pode gerar erros ou advertências (warnings). Para evitar problemas, o ideal é sempre garantir que o programa tenha um comando de retorno válido (como return 0;) no final de sua execução.
+
+10) Se você não colocar a palavra-chave "void" dentro dos parênteses da função "main", o que deverá fazer?
+Resposta: Em C, deixar os parênteses vazios () significa que a função pode, tecnicamente, receber um número indeterminado de argumentos. Para garantir boas práticas e avisar explicitamente ao compilador que ela não deve aceitar parâmetros acidentais, é recomendável usar o "void".
+
+11) Explique a diferença entre erro em tempo de compilação e erro em tempo de execução.
+Resposta: Erro de compilação ocorre quando há falhas na escrita do código (erros de sintaxe, como esquecer um ponto e vírgula ou digitar um comando errado), o que impede o compilador de gerar o arquivo executável. O erro de execução ocorre quando a sintaxe está correta e o programa abre, mas sofre uma falha lógica durante o funcionamento (como tentar dividir um número por zero ou acessar uma gaveta inexistente de um array), fazendo o programa travar ou fechar inesperadamente.
