@@ -1,0 +1,13 @@
+algoritmo "6 exercício"
+var
+
+contador: inteiro
+inicio
+
+para contador 1 ate 20 faca
+
+escreva ("oi")
+
+fimpara 
+
+finalalgoritmo

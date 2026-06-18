@@ -1,0 +1,13 @@
+Algoritmo "exercício 4"
+var
+
+contador: inteiro
+
+contador <- 0 
+
+enquanto (contador < 20) faca 
+	escreva("Oi")
+	contador <- contador + 1
+fimenquanto
+
+fimalgoritmo

@@ -1,0 +1,15 @@
+algoritmo "exercício 5"
+var 
+
+contador: inteiro
+inicio
+
+inteiro <- 0
+
+faca 
+	escreva ("oi")
+
+	contador <- contador + 1
+ 
+	enquanto (contador < 20) 
+finalalgoritmo
